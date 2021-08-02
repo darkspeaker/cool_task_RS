@@ -740,6 +740,111 @@ button {
   width: 215px;
 }
 
+.tickets {
+  padding: 75px 0;
+  background-color: #030303;
+  color: #ffffff;
+}
+
+.tickets .tickets-columns {
+  margin-top: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tickets .column-first {
+  width: 720px;
+}
+
+.tickets .column-second {
+  width: 690px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tickets .ticket-title {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  margin-bottom: 50px;
+}
+
+.tickets .ticket-type__item {
+  margin-bottom: 50px;
+}
+
+.tickets .ticket-type__item label {
+  margin-left: 23px;
+}
+
+.tickets .ticket-amount {
+  width: 175px;
+}
+
+.tickets .ticket-amount__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.tickets .ticket-amount .ticket-title {
+  text-align: left;
+}
+
+.tickets .counter-wrap {
+  width: 150px;
+  border: 1px solid #ffffff;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tickets .counter-wrap .minus,
+.tickets .counter-wrap .plus {
+  color: #ffffff;
+}
+
+.tickets .counter-wrap .value-counter {
+  width: 12px;
+  background-color: transparent;
+  border: none;
+}
+
+.tickets .ticket-amount label {
+  margin-bottom: 15px;
+}
+
+.tickets .ticket-amount__item {
+  margin-bottom: 35px;
+}
+
+.buy {
+  background-color: #ffffff;
+  width: 170px;
+  height: 50px;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+}
+
 .footer {
   background-color: #030303;
   padding: 75px 0;

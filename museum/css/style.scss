@@ -284,6 +284,83 @@ button{
   width: 215px;
 }
 
+.tickets{
+  padding: 75px 0;
+  background-color: $black;
+  color: $white;
+  .tickets-columns{
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .column-first{
+    width: 720px;
+  }
+  .column-second{
+    width: 690px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .ticket-title{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 50px;  
+  }
+  .ticket-type{
+    &__item{
+      margin-bottom: 50px;
+      label{
+        margin-left: 23px;
+      }
+    }
+  }
+  .ticket-amount{
+    width: 175px;
+    &__item{
+      display: flex;
+      flex-direction: column;
+    }
+    .ticket-title{
+      text-align: left;
+    }
+  }
+  .counter-wrap{
+    width: 150px;
+    border: 1px solid $white;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    justify-content: space-between;
+    .minus,
+    .plus{
+      color: $white
+    }
+    .value-counter{
+      width: 12px;
+      background-color: transparent;
+      border: none;
+    }
+  }
+  .ticket-amount{
+    label{
+      margin-bottom: 15px;
+    }
+    &__item{
+      margin-bottom: 35px;
+    }
+  }
+}
+.buy{
+  background-color: $white;
+  width: 170px;
+  height: 50px;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+}
+
 .footer{
   background-color: $black;
   padding: 75px 0 ;
