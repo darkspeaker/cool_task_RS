@@ -68,6 +68,15 @@ hr{
 a{
   text-decoration: none;
 }
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance:textfield;
+}
 .welocome{
   padding-top: 115px;
   background-color: $black;
@@ -212,7 +221,7 @@ hr{
   margin-bottom: 20px;
 }
 .item-address a,
-.item-address label{
+.item-address span{
   color: $black;
   font-weight: 300;
   font-size: 22px;
@@ -340,9 +349,10 @@ button{
       color: $white
     }
     .value-counter{
-      width: 12px;
+      width: 17px;
       background-color: transparent;
       border: none;
+      color: $white;
     }
   }
   .ticket-amount{
@@ -381,9 +391,9 @@ button{
     align-self: flex-end;
   }
   .menu{
+    column-count: 2;
+    display: block;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
   }
   .social-links{
     display: flex;
